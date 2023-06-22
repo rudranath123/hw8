@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans',sans-serif;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* navbar starts here */
+nav {
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+    align-self: center;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    color:white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
+
+/* navbar ends here */
+.justify-between{
+    justify-content: space-between;
+}
+
+.box{
+    background-color:coral;
+    margin-bottom: 20px;
+}
